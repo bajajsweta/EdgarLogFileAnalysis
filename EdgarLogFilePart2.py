@@ -543,8 +543,8 @@ for content in os.listdir("."): # "." means current directory
 ####################### function to upload files to 
 
 def callS3(AKey, SKey):
-    AccessKey = AKey  # AKIAJW7GUWVQDH7OGRVA YCGmOrYtjkuuV8KTeqmBTF+oOHBZFnDmBdmSnWdM
-    SecretKey = SKey  # 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
+    AccessKey = AKey  
+    SecretKey = SKey 
     
     #Connection for Boto
     try:
